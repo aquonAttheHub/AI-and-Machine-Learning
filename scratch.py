@@ -18,19 +18,3 @@ my_coins = 8000 + 5
 print(my_coins)
 my_coins = "8000 + 5"
 print(my_coins)
-
-Life = 3
-if Life > 0:
-    Life -= 1
-if Life > 0:
-    Life -= 1
-if Life > 0:
-    Life -= 1
-if Life > 0:
-    Life -= 1
-elif Life == 0:
-    print("The player has zero life.")
-else:
-    print("The player ran out of life.")
-
-print(Life)
